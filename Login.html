@@ -1,38 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>Login</title>
-    <link rel="stylesheet" href="css.css">
+    <title>Halaman Login</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
 </head>
 
-
-
 <body>
-
-    <form>
-        <h1>login</h1>
-        <table>
-            <tr>
-                <td><span for="name">Username :</span></td>
-                <td><input type="text" id="name" name="name"><br><br> </td>
-            </tr>
-            <tr>
-                <td><span for="pass">Password : </span> </td>
-                <td><input type="password" id="pass" name="pass"><br><br> </td>
-        </table>
-        <button>
-            <div class="wrapper">
-                <i class="bi bi-send"></i>
-            </div>
-            <span>kirim</span>
-        </button>
-
-
-
-
-    </form>
-
+    <div class="login">
+        <h2>Selamat Datang</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Your name...">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Your password...">
+            <input type="button" value="Login">
+            <br><br>
+            <a href="" id="buat">Don't have an account?</a>
+            <a href="">Forgot password??</a>
+        </form>
+    </div>
 </body>
 
 </html>
