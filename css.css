@@ -1,12 +1,15 @@
 body {
-    background-color: #c8c6c6;
+    background-color: #f4f9f4;
 }
 
 .login {
-    width: 450px;
-    margin: 50px auto;
-    padding: 20px;
+    width: 300px;
+    height: 250px;
+    margin: 60px auto;
+    padding: 30px;
     box-shadow: 0px 0px 10px #4c6687;
+    background-color: #8aae92;
+    border-radius: 30px;
 }
 
 h2 {
@@ -21,34 +24,35 @@ label {
 
 input[type=text],
 input[type=password] {
-    width: 100%;
+    width: 95%;
     padding: 12px 20px;
     margin: 8px 0px;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 20px;
     box-sizing: border-box;
     box-shadow: 0px 0px 5px #888888;
 }
 
 input[type=button] {
-    width: 100%;
-    background-color: #4CAF50;
+    width: 50%;
+    background-color: #626262;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 0 auto; 
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
+    display: block;
+
 }
 
 input[type=button]:hover {
-    background-color: #3e8e41;
+    background-color: #c4e3cb;
 }
 
 .pass{
     margin-top: -10px;
     display: flex;
     justify-content:space-between;
-    
   }
