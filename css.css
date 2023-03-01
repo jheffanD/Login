@@ -46,6 +46,9 @@ input[type=button]:hover {
     background-color: #3e8e41;
 }
 
-a {
-    text-align: center;
+.pass{
+    margin-top: -10px;
+    display: flex;
+    justify-content:space-between;
+    
   }
