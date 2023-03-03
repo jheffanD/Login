@@ -4,11 +4,12 @@ body {
 
 .login {
     width: 300px;
-    height: 250px;
+    height: 370px;
     margin: 60px auto;
     padding: 30px;
     box-shadow: 0px 0px 10px #4c6687;
-    background-color: #8aae92;
+    background: linear-gradient(#5e5e5e,#a4a358 );
+    background-size: auto;
     border-radius: 30px;
 }
 
@@ -24,7 +25,7 @@ label {
 
 input[type=text],
 input[type=password] {
-    width: 95%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0px;
     display: inline-block;
@@ -56,3 +57,23 @@ input[type=button]:hover {
     display: flex;
     justify-content:space-between;
   }
+
+  #bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+  /* Gunakan kode ini jika Anda ingin menambahkan efek blur atau lainnya ke video */
+  #bg-video::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* warna transparan untuk efek blur */
+    z-index: -1;
+  }
+  
